@@ -19,11 +19,11 @@ These three crates will be part of the same workspace. We’ll start by creating
 a new directory for the workspace:
 
 ```console
-$ mkdir add
-$ cd add
+$ mkdir adder
+$ cd adder
 ```
 
-Next, in the *add* directory, we create the *Cargo.toml* file that will
+Next, in the *adder* directory, we create the *Cargo.toml* file that will
 configure the entire workspace. This file won’t have a `[package]` section.
 Instead, it will start with a `[workspace]` section that will allow us to add
 members to the workspace by specifying the path to the package with our binary
